@@ -16,6 +16,7 @@ setInterval(()=>{
     }
     const imgurl = images[imgindex];
     imgelement.setAttribute('src',imgurl);
+    
     console.log(imgurl)
 
 imgindex++;
